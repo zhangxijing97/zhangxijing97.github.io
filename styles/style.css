@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(10, 25, 47, 0.85);
+    color: white;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .terminal {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .terminal-header {
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .terminal-buttons {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .terminal-button {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .terminal-body {
+    line-height: 1.5;
+  }
+  
+  .important-text {
+    color: rgb(100, 255, 218);
+  }
+  
