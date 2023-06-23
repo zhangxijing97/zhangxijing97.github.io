@@ -44,7 +44,7 @@
                         I'am <span class="home__title-color">Xijing Zhang</span><br>
                         Software Engineer
                     </h1>
-                    <a href="mailto:zhangxijing97@gmail.com" class="button">Contact</a>
+                    <a href="mailto:zhangxijing97@gmail.com" class="button"><i class='bx bxs-envelope' ></i> Contact</a>
                 </div>
 
                 <div class="home__social">
@@ -140,24 +140,29 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                    <form
+                        action="https://formspree.io/f/xrgwzgrq"
+                        method="POST"
+                        class="contact__form"
+                    >
+                        <input type="text" placeholder="Name" name="name" class="contact__input">
+                        <input type="email" placeholder="Email" name="email" class="contact__input">
+                        <textarea name="message" placeholder="Message" cols="0" rows="10" class="contact__input"></textarea>
+                        <button type="submit" class="contact__button button">Send</button>
                     </form>
-                </div>
-                
+                </div>                
+
             </section>
+
         </main>
 
         <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Xijing Zhang</p>
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://github.com/zhangxijing97" class="footer__icon" target="_blank"><i class='bx bxl-github bx-tada-hover' ></i></a>
+                <a href="https://www.linkedin.com/in/xijing-zhang-406a80178/" class="footer__icon" target="_blank"><i class='bx bxl-linkedin bx-tada-hover' ></i></a>
+                <a href="https://www.instagram.com/zhang.xijing_/" class="footer__icon" target="_blank"><i class='bx bxl-instagram-alt bx-tada-hover' ></i></a>
             </div>
             <p class="footer__copy">&#169; 2023 Xijing Zhang. All rights reserved.</p>
         </footer>
