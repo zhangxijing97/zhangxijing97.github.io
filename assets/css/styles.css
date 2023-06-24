@@ -10,8 +10,8 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --hue-color: 212;
+  --first-color: hsl(var(--hue-color), 100%, 50%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
@@ -55,26 +55,6 @@ body {
   font-size: var(--normal-font-size);
   color: var(--second-color);
 }
-
-/* h1, h2, p {
-  margin: 0;
-} */
-
-/* h1, h2 {
-  margin: 0;
-}
-
-p {
-  margin: 20;
-} */
-
-/* p1 {
-  margin: 30;
-} */
-
-/* p {
-  font-size: 16px;
-} */
 
 h3 {
   font-weight: normal
@@ -295,12 +275,6 @@ img {
   /* text-align: center; */
 }
 
-.about__container__tech {
-  grid-template-columns: repeat(2, 1fr);
-  /* flex-direction: column; */
-  /* justify-content: flex-start; */
-}
-
 .about__subtitle {
   margin-bottom: var(--mb-2);
 }
@@ -384,7 +358,7 @@ img {
 /* ===== WORK =====*/
 .work__container {
   position: relative;
-  padding: 4rem 0 5rem;
+  /* padding: 4rem 0 5rem; */
   row-gap: 2rem;
 }
 
@@ -543,7 +517,7 @@ img {
   
   .section {
     padding-top: 4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
 
   .section-title {
@@ -613,8 +587,13 @@ img {
     margin-right: auto;
   }
   .home {
-    padding: 10rem 0 2rem;
+    padding: 8rem 0 0rem;
   }
+
+  .about {
+    padding: 0rem 0 4rem;
+  }
+
   .home__img {
     width: 450px;
   }
