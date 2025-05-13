@@ -1,172 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xijing Zhang</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+  <div class="wrapper">
+    <div class="container">
+      <div class="sidebar">
+        <h1>Xijing Zhang</h1>
+        <p>Master's student, Software Engineer</p>
+        <p>Bay Area, California</p>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <title>Xijing Zhang</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Xijing Zhang</a>
-                </div>
+        <a href="mailto:xijing.zhang2@gmail.com">
+          <i class="fas fa-envelope"></i> xijing.zhang2@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/xijing-zhang-406a80178" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/zhangxijing97" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+      <div class="content">
+        <div class="section">
+          <p>👋 Hi, I’m Xijing Zhang</p>
+          <p>🎓 I'm currently pursuing a Master's degree in Computer Software Engineering at Northeastern University.</p>
+          <p>🚀 I specialize in Full-Stack Development, Cloud Infrastructure, Distributed Systems, Generative Models, and Deep Learning.</p>
+        </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+        <div class="section work-list">
+        
+          <div class="work-item">
+            <p class="date">May 2025</p>
+            <a href="https://github.com/zhangxijing97/demand-forecast-safety-stock" target="_blank">Demand Forecasting & Safety Stock Calculator</a>
+            <p class="desc">Forecasted daily product demand using AutoARIMA and calculated safety stock based on forecast uncertainty, using a real-world dataset.</p>
+          </div>
+        
+          <div class="work-item">
+            <p class="date">April 2025</p>
+            <a href="https://github.com/zhangxijing97/rossmann-sales-forecasting" target="_blank">Rossmann Sales Forecasting</a>
+            <p class="desc">Implemented SARIMAX, Prophet, LightGBM, and Neural Network models to forecast store sales and compare performance using RMSPE.</p>
+          </div>
 
-        <main class="l-main">
+          <div class="work-item">
+            <p class="date">February 2025</p>
+            <a href="https://github.com/zhangxijing97/kiwi-search" target="_blank">Kiwi Search Engine</a>
+            <p class="desc">Built a Google-style search engine with crawling, indexing, and PageRank-based ranking using Flask and Python.</p>
+          </div>
+        
+          <div class="work-item">
+            <p class="date">August 2024</p>
+            <a href="#">RAG Chatbot</a>
+            <p class="desc">Developed an AI chatbot integrating Llama 3, intent classification, and a hybrid retrieval system to automate internal support workflows.</p>
+          </div>
+        
+          <div class="work-item">
+            <p class="date">May 2024</p>
+            <a href="https://github.com/abdolreza-mosaddegh/EmergencyAI" target="_blank">EmergencyAI – Multi-Agent Medical Assistant</a>
+            <p class="desc">Built a full-stack LLM-based platform using 12 fine-tuned agents to assist doctors in diagnosis and treatment planning, hosted on AWS with a Flask backend.</p>
+          </div>
+        
+          <div class="work-item">
+            <p class="date">February 2024</p>
+            <a href="https://github.com/zhangxijing97/SpikingNeuralNetworksDemo" target="_blank">Spiking Neural Networks Demo</a>
+            <p class="desc">Simulated the Leaky Integrate-and-Fire (LIF) neuron model using Python to demonstrate concepts in neuromorphic computing.</p>
+          </div>
+        
+          <div class="work-item">
+            <p class="date">August 2023</p>
+            <a href="https://github.com/zhangxijing97/Taskhub" target="_blank">TaskHub – To Do List App</a>
+            <p class="desc">iOS task management app built with Swift & SwiftUI featuring custom reminders, cross-device sync, and productivity-focused UI.</p>
+          </div>
+        
+          <div class="work-item">
+            <p class="date">May 2023</p>
+            <a href="https://github.com/zhangxijing97/Attendance" target="_blank">Attendance App</a>
+            <p class="desc">iPadOS attendance tracker with secure local backend (Vapor), enabling fast in/out logging, reporting, and on-site sync.</p>
+          </div>
+        
+          <div class="work-item">
+            <p class="date">February 2023</p>
+            <a href="https://github.com/zhangxijing97/MarsMission" target="_blank">Mars Mission Game</a>
+            <p class="desc">A 2D iOS game built with SpriteKit that challenges users to land a spacecraft safely on Mars through physics-based gameplay.</p>
+          </div>
+        </div>               
+        
+      </div>
+    </div>
+  </div>
 
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">
-                        Hi,<br>
-                        I'am <span class="home__title-color">Xijing Zhang</span><br>
-                        Software Engineer
-                    </h1>
-                    <a href="mailto:zhangxijing97@gmail.com" class="button"><i class='bx bxs-envelope' ></i> Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://github.com/zhangxijing97" class="home__social-icon" target="_blank"><i class='bx bxl-github bx-tada-hover' ></i></a>
-                    <a href="https://www.linkedin.com/in/xijing-zhang-406a80178/" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin bx-tada-hover'></i></a>
-                    <a href="https://www.instagram.com/zhang.xijing_/" class="home__social-icon" target="_blank"><i class='bx bxl-instagram-alt bx-tada-hover'></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="0" y="10" href="assets/img/perfil.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
-                <div class="about__container bd-grid">
-                    <div>
-                        <h3 class="about__subtitle">Hello, I'm <strong>Xijing Zhang</strong>, a passionate software engineer with a focus on building high-quality applications and backend systems. I have expertise in various technologies and enjoy working on challenging projects that push the boundaries of what's possible.</h3>     
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Projects</h2>
-
-                <div class="work__container bd-grid">
-                    <div>
-                        <h2 class="about__subtitle">Taskhub</h2>
-                        <p class="about__text">Taskhub is a simple and intuitive task management app that helps you stay organized and track your tasks effectively. The app generates over 150 new users every week.</p>
-                        <h5 class="about__text">
-                            <i class='bx bx-code-alt'></i> Swift, SwiftUI, Firebase, Firestore<br>
-                            <i class='bx bx-calendar' ></i> May 2023
-                        </h5>
-                        <div class="work__social">
-                            <a href="https://github.com/zhangxijing97/Taskhub" class="work__social-icon" target="_blank"><i class='bx bxl-github bx-tada-hover' ></i></a>
-                            <a href="https://apps.apple.com/us/app/taskhub-to-do-list/id6449981854?platform=iphone" class="work__social-icon" target="_blank"><i class='bx bxl-apple bx-tada-hover' ></i></a>
-                        </div>
-                    </div>
-
-                    <a href="https://apps.apple.com/us/app/taskhub-to-do-list/id6449981854?platform=iphone" class="work__img" target="_blank">
-                        <img src="assets/img/project01.png" alt="">
-                    </a>
-
-                    <div>
-                        <h2 class="about__subtitle">Attendance</h2>
-                        <p class="about__text">"Attendance" is a iOS application designed for the ASU DC Summer Institute. The app enables TAs to efficiently manage attendance courses. Annually, the app handles more than 20 courses and processes more than 12,000 attendance records.</p>           
-                        <h5 class="about__text">
-                            <i class='bx bx-code-alt'></i> Swift, SwiftUI, Vapor, PostgreSQL<br>
-                            <i class='bx bx-calendar' ></i> April 2023
-                        </h5>
-                        <div class="work__social">
-                            <a href="https://github.com/zhangxijing97/Attendance" class="work__social-icon" target="_blank"><i class='bx bxl-github bx-tada-hover' ></i></a>
-                        </div>
-                    </div>
-
-                    <a href="https://github.com/zhangxijing97/Attendance" class="work__img" target="_blank">
-                        <img src="assets/img/project02.png" alt="">
-                    </a>
-
-                    <div>
-                        <h2 class="about__subtitle">Mars Mission</h2>
-                        <p class="about__text">"Mars Mission" is is a video game running on the ios platform that challenges players to navigate a spacecraft through obstacles and land safely on Mars.</p>           
-                        <h5 class="about__text">
-                            <i class='bx bx-code-alt'></i> Swift, UIKit, SpriteKit, GameplayKit, CoreMotion<br>
-                            <i class='bx bx-calendar' ></i> May 2022
-                        </h5>
-                        <div class="work__social">
-                            <a href="https://github.com/zhangxijing97/MarsMission" class="work__social-icon" target="_blank"><i class='bx bxl-github bx-tada-hover' ></i></a>
-                        </div>
-                    </div>
-
-                    <a href="https://github.com/zhangxijing97/MarsMission" class="work__img" target="_blank">
-                        <img src="assets/img/project03.png" alt="">
-                    </a>
-
-                    
-
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form
-                        action="https://formspree.io/f/xrgwzgrq"
-                        method="POST"
-                        class="contact__form"
-                    >
-                        <input type="text" placeholder="Name" name="name" class="contact__input">
-                        <input type="email" placeholder="Email" name="email" class="contact__input">
-                        <textarea name="message" placeholder="Message" cols="0" rows="10" class="contact__input"></textarea>
-                        <button type="submit" class="contact__button button">Send</button>
-                    </form>
-                </div>                
-
-            </section>
-
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Xijing Zhang</p>
-            <div class="footer__social">
-                <a href="https://github.com/zhangxijing97" class="footer__icon" target="_blank"><i class='bx bxl-github bx-tada-hover' ></i></a>
-                <a href="https://www.linkedin.com/in/xijing-zhang-406a80178/" class="footer__icon" target="_blank"><i class='bx bxl-linkedin bx-tada-hover' ></i></a>
-                <a href="https://www.instagram.com/zhang.xijing_/" class="footer__icon" target="_blank"><i class='bx bxl-instagram-alt bx-tada-hover' ></i></a>
-            </div>
-            <p class="footer__copy">&#169; 2023 Xijing Zhang. All rights reserved.</p>
-        </footer>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+</body>
 </html>
