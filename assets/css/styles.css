@@ -114,6 +114,16 @@ body {
   text-decoration: underline;
 }
 
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  font-weight: 300;
+  padding: 40px 0 20px;
+  margin-top: 80px;
+  line-height: 1.6;
+}
+
 /* Responsive for tablets and phones */
 @media (max-width: 768px) {
   .wrapper {
